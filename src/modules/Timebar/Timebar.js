@@ -1,8 +1,10 @@
-import 'Timebar.css'
+import './Timebar.css'
 
 const Timebar = () => {
   return (
-    <div>Timer</div>
+    <div id="time">
+      <div id="subTime"></div>
+    </div>
   )
 }
 

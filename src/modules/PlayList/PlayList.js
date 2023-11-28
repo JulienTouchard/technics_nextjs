@@ -2,7 +2,7 @@ import './PlayList.css'
 
 const PlayList = () => {
   return (
-    <div>PlayList</div>
+    <div id="playlist"></div>
   )
 }
 

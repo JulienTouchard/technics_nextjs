@@ -1,29 +1,19 @@
+
+import InfosPlayer from "../InfosPlayer/InfosPlayer"
+import NavPlayer from "../NavPlayer/NavPlayer"
+import Slider from "../Slider/Slider"
+import Timebar from "../Timebar/Timebar"
 import "./Player.css"
 const Player = (props) => {
     return (
         <>
             <div id="container">
                 <div id="player">
-                    <div id="slider"></div>
-                    <div id="navigation">
-                        <div id="prev">
-                            <img src="./assets/icons/step-backward-solid.svg" alt=""/>
-                        </div>
-                        <div id="play-pause">
-                            <img src="./assets/icons/play-circle-solid.svg" alt=""/>
-                        </div>
-                        <div id="next">
-                            <img src="./assets/icons/step-forward-solid.svg" alt=""/>
-                        </div>
-                        <div id="shuffle">
-                            <img src="./assets/icons/shuffle-solid.svg" alt=""/>
-                        </div>
-                    </div>
-                    <div id="time">
-                        <div id="subTime"></div>
-                    </div>
+                    <Slider></Slider>
+                    <Timebar></Timebar>
+                    <NavPlayer></NavPlayer>
+                    <InfosPlayer></InfosPlayer>
                 </div>
-                <div id="playlist"></div>
             </div>
         </>
     )

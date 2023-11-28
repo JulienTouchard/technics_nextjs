@@ -2,7 +2,9 @@ import './Slider.css'
 
 const Slider = () => {
   return (
-    <div id='slider'>Slider</div>
+    <div id="slider">
+      
+    </div>
   )
 }
 
