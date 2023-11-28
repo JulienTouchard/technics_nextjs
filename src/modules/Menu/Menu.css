@@ -1,0 +1,26 @@
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    max-width: 1920px;
+    background-color: rgb(255, 255, 255,.5);
+}
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+#menu li{
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    color: black;
+}
+#menu li:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
