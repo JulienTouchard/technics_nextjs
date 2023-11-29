@@ -1,5 +1,5 @@
 import "./Menu.css"
-import { menudata } from "@/data/menudata"
+import { menudata } from "./menudata.js"
 const Menu = (props)=>{
     return(
         <nav id="menu">

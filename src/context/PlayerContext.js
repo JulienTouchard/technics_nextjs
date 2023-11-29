@@ -8,6 +8,7 @@ export const PlayerContextProvider = ({ children }) => {
     const [currentTrack, setCurrentTrack] = useState({})
     const [isPlaying, setIsPlaying] = useState(false)
     const [playList, setPlayList] = useState({})
+    const [playListLen,setPlayListLen] = useState(0)
     const [playerReady, setPlayerReady] = useState(false);
 
     return (
@@ -16,10 +17,11 @@ export const PlayerContextProvider = ({ children }) => {
             currentTrack, setCurrentTrack,
             isPlaying, setIsPlaying,
             playList, setPlayList,
+            playListLen,setPlayListLen,
             playerReady, setPlayerReady,
         }}>
             {children}
         </PlayerContext.Provider>
     )
 }
-export const usePlayerContext = useContext(PlayerContext); 
+export const usePlayerContext = ()=>useContext(PlayerContext); 

@@ -7,6 +7,11 @@ import { useRef, useState } from 'react'
 import Player from '@/modules/Player/Player';
 import Library from '@/modules/Library/Library';
 import { PlayerContextProvider } from '@/context/PlayerContext';
+import { usePlayerContext } from '@/context/PlayerContext';
+import fs from 'fs';
+// utilisation de swr pour fetcher
+//import useSWR from 'swr'; //npm i swr
+//const fetcher = (url) => fetch(url).then((res) => res.json());
 
 
 export default function Home() {
@@ -14,7 +19,31 @@ export default function Home() {
     "displayPlayer": true,
     "displayLibrary": false
   })
-
+  const { playList, setPlayList, indexTrack, setCurrentTrack, setPlayListLen, setPlayerReady, playerReady } = usePlayerContext()
+  const loadPlaylist = async () => {
+    const json = await fs.readFile(process.cwd() + '/data/playlist/like.json', 'utf8');
+    console.log(json);
+    // import playList
+    setPlayList({ ...json });
+    // def currentTrack
+    setCurrentTrack({ ...playList[indexTrack] });
+    setPlayListLen(playList.length);
+    setPlayerReady(true);
+  }
+  loadPlaylist();
+  /* // url pas bonne voir le system api du routeur
+  fetch('/api/playlist/like.json')
+    .then(res => res.json())
+    .then(json => {
+      console.log(json);
+      // import playList
+      setPlayList({ ...json });
+      // def currentTrack
+      setCurrentTrack({ ...playList[indexTrack] });
+      setPlayListLen(playList.length);
+      setPlayerReady(true);
+    })
+ */
   //gestion menu
   const menuDisplay = (link) => {
     let singleRouterTmp = singleRouter;
@@ -31,7 +60,7 @@ export default function Home() {
         <Menu menuDisplay={menuDisplay}></Menu>
       </header>
       <main>
-        {singleRouter.displayPlayer ?
+        {singleRouter.displayPlayer && playerReady ?
           <PlayerContextProvider>
             <Player></Player>
           </PlayerContextProvider>
