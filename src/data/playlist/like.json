@@ -1,0 +1,125 @@
+{
+    "title":"like",
+    "content":[
+        {
+            "title" : "Golden",
+            "artist" : "Jill Scott",
+            "tags" : ["Hip Hop","Funk/Soul"],
+            "year" : 2004,
+            "coverurl" : "golden-Jill-Scott.jpg",
+            "audiourl" : "Jill Scott - Golden (Lyrics).mp3",
+            "album" : "Golden",
+            "like" : false
+        },
+        {
+            "title" : "Woo-Hah!!!",
+            "artist" : "Busta Rhymes",
+            "tags" : ["Hip Hop","Funk/Soul"],
+            "year" : 2004,
+            "coverurl" : "woo-hah!!!-busta-rhymes.jpg",
+            "audiourl" : "Busta Rhymes _- Woo-Hah!! Got You All In Check (Official Video) [Explicit].mp3",
+            "album" : "Woo-Hah!!!",
+            "like" : false
+        },
+        {
+            "title" : "Work It",
+            "artist" : "Missy Elliott",
+            "tags" : ["Hip Hop","Funk/Soul"],
+            "year" : 2004,
+            "coverul" : "workit-MissyElliott.jpg",
+            "audiourl" : "Missy Elliott - Work It [Official Music Video].mp3",
+            "album" : "Work It",
+            "like" : false 
+        },
+        {
+            "audiourl": "its-bigger-than-hip-hop-dead-prez.mp3",
+            "coverurl": "coverDeadPrez.jpg",
+            "title": "It's bigger than Hip Hop",
+            "artist" : "Dead Prez",
+            "tags": ["Hip Hop"],
+            "year": 1998,
+            "album": "blblablablbl qsdgkq",
+            "like" : false
+        },
+        {
+            "audiourl": "the-pharcyde-passin-me-by.mp3",
+            "coverurl": "coverPharcyde.jpg",
+            "title": "Passin me by",
+            "artist": "The Pharcyde",
+            "tags": ["Hip Hop"],
+            "year": 1993,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        },
+        {
+            "audiourl": "soul-of-mischief-93-til-infinity.mp3",
+            "coverurl": "coverSoulOf.jpg",
+            "title": "Passin me by",
+            "artist": "The Pharcyde",
+            "tags": ["Hip Hop"],
+            "year": 1993,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        },
+        {
+            "audiourl": "In A Sentimental Mood.mp3",
+            "coverurl": "In A Sentimental Mood.jpg",
+            "title": "In A Sentimental Mood",
+            "artist": "Duke Ellington",
+            "tags": ["Jazz"],
+            "year": 1966,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        },
+        {
+            "audiourl": "DAngelo - Spanish Joint (acoustic demo).mp3",
+            "coverurl": "DAngelo - Spanish Joint (acoustic demo).jpg",
+            "title": "Spanish Joint (acoustic demo)",
+            "artiste": "D'Angelo",
+            "tags": ["Hip Hop"],
+            "year": 2000,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        },
+        {
+            "audiourl": "Jamiroquai - Alright.mp3",
+            "coverurl": "Jamiroquai - Alright.jpg",
+            "title": "Alright",
+            "artist": "Jamiroquai",
+            "tags": ["Hip Hop"],
+            "year": 1993,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        },
+        {
+            "audiourl": "Gorillaz - Dare HD.mp3",
+            "coverurl": "Gorillaz - Dare HD.jpg",
+            "title": "Dare",
+            "artist": "Gorillaz",
+            "tags": ["Hip Hop"],
+            "year": 2005,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        },
+        {
+            "audiourl": "Chopin - Waltz Op. 64 No. 2 (Rubinstein).mp3",
+            "coverurl": "Chopin - Waltz Op. 64 No. 2 (Rubinstein).jpg",
+            "title": "Waltz Op. 64 No. 2 (Rubinstein)",
+            "artist": "Chopin",
+            "tags": ["Hip Hop"],
+            "year": 1958,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        },
+        {
+            "audiourl": "Nina Simone & Lauryn Hill - Fu-Gee-La feat. The Fugees (Prod. Amerigo Gazaway).mp3",
+            "coverurl": "Nina Simone & Lauryn Hill - Fu-Gee-La feat. The Fugees (Prod. Amerigo Gazaway).jpg",
+            "title": "Fu-Gee-La",
+            "artist": "Nina Simone & Lauryn Hill (Prod. Amerigo Gazaway)",
+            "tags": ["Hip Hop"],
+            "year": 2019,
+            "album": "YOUPIIIIIIIIIIIIIII",
+            "like" : false
+        }
+    ]
+}
